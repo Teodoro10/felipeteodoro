@@ -34,4 +34,52 @@ header li::after {
 }
 header li:hover::after {
   width: 100%;
+}
+
+main {
+  background-color: #000000;
+}
+
+.me {
+  display: flex;
+  margin-left: 100px;
+}
+
+.me_text {
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  margin-top: 90px;
+  font-size: 40px;
+}
+.me_text h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.me_text h1, .me_text p {
+  cursor: pointer;
+}
+.me_text span {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#my_img {
+  box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+  width: 250px;
+  height: 400px;
+  overflow: hidden;
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
