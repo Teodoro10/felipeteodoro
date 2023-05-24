@@ -35,7 +35,20 @@
   font-weight: 900;
   color: #000;
 }
-.me_text span {
+.me_text p:after {
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+@keyframes pisca {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.me_text #para {
   color: #019fb6;
   font-size: 60px;
 }
@@ -320,4 +333,8 @@ footer {
   background-color: #019fb6;
   transition: 0.7s ease-in-out;
   color: #fff;
+}
+
+.about_text, .about_img, .project_one, .project_two, .project_three, .project_four, .project_five {
+  visibility: hidden;
 }/*# sourceMappingURL=style.css.map */

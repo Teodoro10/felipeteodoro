@@ -6,27 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="shortcut icon " href="./assets/barra.svg" />
+    <script src="https://unpkg.com/scrollreveal@4"></script>
     <title>Felipe Teodoro • Front-end</title>
   </head>
   <body>
-    <!-- <header>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-      </ul>
-    </header> -->
     <main>
       <div class="me">
         <div class="me_text">
           <!-- <p>Olá, meu nome é</p>
           <h1>Felipe Teodoro</h1>
           <p>Front-end Developer</p> -->
-          <p>Olá, meu nome é <span>Felipe Teodoro </span> </br>
+          <p>
+            Olá, meu nome é
+            <span id="para">Felipe Teodoro Ribeiro </span> <br />
             Front-end Developer
           </p>
-          
-          <button>Saiba mais</button>
+
+          <button id="myBtn">Saiba mais</button>
         </div>
         <!-- <div class="me_img">
           <img src="" alt="" id="my_img" />
@@ -47,83 +43,122 @@
             Meu nome Felipe Teodoro Ribeiro tenho 18 anos.
           </p>
           <p>
-            Minha trajetoria na área de TI começou em 2021 quando fiz um curso
-            de informatica basica umas semanas depois começei a fazer Tecnico de
-            Informatica no Senac.
+            Minha trajetória na área de TI começou em 2021, quando fiz um curso
+            de informática básica. Algumas semanas depois, comecei a fazer o
+            curso Técnico de Informática no Senac.
           </p>
           <p>
-            E em 2023 começei a cursar Analise e Desenvolvimento de Sistemas na
+            Em 2023, iniciei o curso de Análise e Desenvolvimento de Sistemas na
             Unimetrocamp Wyden.
           </p>
           <p>
-            Estou empolgado para começar na área e estou sempre atrás de
-            aprender novas tecnologias e <br />
-            aprender cada dia mais Inglês.
+            Estou empolgado para ingressar nessa área e estou sempre buscando
+            aprender novas tecnologias e aprimorar meu inglês a cada dia.
           </p>
           <div class="about_social">
-            <a href="https://www.linkedin.com/in/felipe-teodoro10/" target="_blank"><img src="./assets/linkedin (1).png" alt="logo linkedin" /></a>
-            <a href="https://www.instagram.com/teodoro_331/" target="_blank"><img src="./assets/instagram.png" alt="logo instagram" /></a>
-            <a href="https://github.com/Teodoro10" target="_blank"><img src="./assets/github-mark.png" alt="logo github" /></a>
+            <a
+              href="https://www.linkedin.com/in/felipe-teodoro10/"
+              target="_blank"
+              ><img src="./assets/linkedin (1).png" alt="logo linkedin"
+            /></a>
+            <a href="https://www.instagram.com/teodoro_331/" target="_blank"
+              ><img src="./assets/instagram.png" alt="logo instagram"
+            /></a>
+            <a href="https://github.com/Teodoro10" target="_blank"
+              ><img src="./assets/github-mark.png" alt="logo github"
+            /></a>
           </div>
         </div>
       </div>
-        <div class="project">
-          <div class="project_one">
-            <img src="./assets/lif.PNG" alt="" width="700px">
-            <h1>Life Fitness</h1>
-            <p>Projeto criado em equipe para uma academia </p>
-            <p class="tec">Tecnologias usadas: HTML,CSS,PHP</p>
-             <a href="https://github.com/Teodoro10/Life-Fitness" target="_blank"><button>Codigo</button></a>
-             <a href="https://teodoro10.github.io/Life-Fitness/" target="_blank"><button>Visualizar</button></a>
-          </div>
-          <div class="project_two">
-            <img src="./assets/state.PNG" alt="" width="700px">
-            <h1>State</h1>
-            <p>Projeto ultilizando APIS</p>
-            <p class="tec">Tecnologias usadas: HTML,CSS,Javascript</p>
-            <a href="https://github.com/Teodoro10/States" target="_blank"><button>Codigo</button></a>
-            <a href="https://statesbr.netlify.app" target="_blank"><button>Visualizar</button></a>
-          </div>
-          <div class="project_three">
-            <img src="./assets/coin.PNG" alt="" width="700px">
-            <h1>Conversor de moedas</h1>
-            <p>Projeto criado em aulas de Javascript </p>
-            <p class="tec">Tecnologias usadas: HTML,CSS,PHP</p>
-             <a href="https://github.com/Teodoro10/Converter-for-coins-" target="_blank"><button>Codigo</button></a>
-             <a href="https://mellifluous-torrone-d8a579.netlify.app/" target="_blank"><button>Visualizar</button></a>
-          </div>
-          <div class="project_four">
-            <img src="./assets/ceo.PNG" alt="" width="700px">
-            <h1>CEP</h1>
-            <p>Projeto ultilizando APIS</p>
-            <p class="tec">Tecnologias usadas: HTML,CSS,Javascript</p>
-            <a href="https://github.com/Teodoro10/CEPS" target="_blank"><button>Codigo</button></a>
-            <a href="https://ceps.netlify.app" target="_blank"><button>Visualizar</button></a>
-          </div>
-          <div class="project_five">
-            <img src="./assets/recet.PNG" alt="" width="700px">
-            <h1>Receitas</h1>
-            <p>Projeto criado nas aulas da Alura ultilizando Bootstrap </p>
-            <p class="tec">Tecnologias usadas: HTML,CSS, Javascript,Bootstrap</p>
-             <a href="https://github.com/Teodoro10/-Bootstrap" target="_blank"><button>Codigo</button></a>
-             <a href="https://teodoro10.github.io/-Bootstrap/" target="_blank"><button>Visualizar</button></a>
-          </div>
+      <div class="project">
+        <div class="project_one">
+          <img src="./assets/lif.PNG" alt="" width="700px" />
+          <h1>Life Fitness</h1>
+          <p>Projeto criado em equipe para uma academia</p>
+          <p class="tec">Tecnologias usadas: HTML,CSS,PHP</p>
+          <a href="https://github.com/Teodoro10/Life-Fitness" target="_blank"
+            ><button>Codigo</button></a
+          >
+          <a href="https://teodoro10.github.io/Life-Fitness/" target="_blank"
+            ><button>Visualizar</button></a
+          >
         </div>
+        <div class="project_two">
+          <img src="./assets/state.PNG" alt="" width="700px" />
+          <h1>State</h1>
+          <p>Projeto ultilizando APIS</p>
+          <p class="tec">Tecnologias usadas: HTML,CSS,Javascript</p>
+          <a href="https://github.com/Teodoro10/States" target="_blank"
+            ><button>Codigo</button></a
+          >
+          <a href="https://statesbr.netlify.app" target="_blank"
+            ><button>Visualizar</button></a
+          >
+        </div>
+        <div class="project_three">
+          <img src="./assets/coin.PNG" alt="" width="700px" />
+          <h1>Conversor de moedas</h1>
+          <p>Projeto criado em aulas de Javascript</p>
+          <p class="tec">Tecnologias usadas: HTML,CSS,PHP</p>
+          <a
+            href="https://github.com/Teodoro10/Converter-for-coins-"
+            target="_blank"
+            ><button>Codigo</button></a
+          >
+          <a
+            href="https://mellifluous-torrone-d8a579.netlify.app/"
+            target="_blank"
+            ><button>Visualizar</button></a
+          >
+        </div>
+        <div class="project_four">
+          <img src="./assets/ceo.PNG" alt="" width="700px" />
+          <h1>CEP</h1>
+          <p>Projeto ultilizando APIS</p>
+          <p class="tec">Tecnologias usadas: HTML,CSS,Javascript</p>
+          <a href="https://github.com/Teodoro10/CEPS" target="_blank"
+            ><button>Codigo</button></a
+          >
+          <a href="https://ceps.netlify.app" target="_blank"
+            ><button>Visualizar</button></a
+          >
+        </div>
+        <div class="project_five">
+          <img src="./assets/recet.PNG" alt="" width="700px" />
+          <h1>Receitas</h1>
+          <p>Projeto criado nas aulas da Alura ultilizando Bootstrap</p>
+          <p class="tec">Tecnologias usadas: HTML,CSS, Javascript,Bootstrap</p>
+          <a href="https://github.com/Teodoro10/-Bootstrap" target="_blank"
+            ><button>Codigo</button></a
+          >
+          <a href="https://teodoro10.github.io/-Bootstrap/" target="_blank"
+            ><button>Visualizar</button></a
+          >
+        </div>
+      </div>
     </main>
-  <footer>
-    <div class="contact">
- <p>Você gostaria de trabalhar comigo ? </p>
- <h2>Fale comigo</h2>
- <div class="redes">
-  <a href="mailto:felipeteoribeiro@gmail.com" target="_blank">
-    <button>Enviar email</button>
-  </a>
-  <a href="https://www.linkedin.com/in/felipe-teodoro10/" target="_blank"><img src="./assets/linkedin (1).png" alt="logo linkedin" /></a>
-  <a href="https://www.instagram.com/teodoro_331/" target="_blank"><img src="./assets/instagram.png" alt="logo instagram" /></a>
-  <a href="https://github.com/Teodoro10" target="_blank"><img src="./assets/github-mark.png" alt="logo github" /></a>
-
- </div>
-    </div>
-   </footer> 
+    <footer>
+      <div class="contact">
+        <p>Você gostaria de trabalhar comigo ?</p>
+        <h2>Fale comigo</h2>
+        <div class="redes">
+          <a href="mailto:felipeteoribeiro@gmail.com" target="_blank">
+            <button>Enviar email</button>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/felipe-teodoro10/"
+            target="_blank"
+            ><img src="./assets/linkedin (1).png" alt="logo linkedin"
+          /></a>
+          <a href="https://www.instagram.com/teodoro_331/" target="_blank"
+            ><img src="./assets/instagram.png" alt="logo instagram"
+          /></a>
+          <a href="https://github.com/Teodoro10" target="_blank"
+            ><img src="./assets/github-mark.png" alt="logo github"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./script/script.js"></script>
   </body>
 </html>

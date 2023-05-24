@@ -65,30 +65,31 @@
 .me_text{
     font-family: "Rubik", sans-serif;
     margin-top:90px;
+    
     p{
         font-size: 60px;
         font-weight: 900;
         color: #000;
     }
-    span{
+    p:after{
+        
+ margin-left: 5px;
+ opacity: 1;
+ animation: pisca .7s infinite;
+    }
+    @keyframes pisca{
+        0%, 100%{
+            opacity: 1;
+        }
+        50%{
+            opacity: 0;
+        }
+    }
+
+    #para{
         color: #019fb6;
         font-size: 60px;
     }
-    
-
-    // h1{
-    //     // padding-top: 20px;
-    //     // padding-bottom: 20px;
-    //     color:#019fb6 ;
-    //     font-size: 70px;
-    //     cursor: pointer;
-    // }
-    // p{
-    //     color: #000;
-    //     font-size:30px ;
-    //     cursor: pointer;
-    // }
-   
       button{
         background: none;
         border: 2px solid #019fb6 ;
@@ -380,4 +381,7 @@ h1{
         color: #fff;
       }
 
+ }
+ .about_text, .about_img, .project_one,.project_two,.project_three,.project_four,.project_five{
+    visibility: hidden;
  }
