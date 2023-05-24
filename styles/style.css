@@ -333,8 +333,4 @@ footer {
   background-color: #019fb6;
   transition: 0.7s ease-in-out;
   color: #fff;
-}
-
-.about_text, .about_img, .project_one, .project_two, .project_three, .project_four, .project_five {
-  visibility: hidden;
 }/*# sourceMappingURL=style.css.map */
